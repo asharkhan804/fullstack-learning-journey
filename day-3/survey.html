@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student survey form</title>
+</head>
+
+<body>
+    <!-- heading-1 -->
+    <h1>Student Feedback Survey</h1>
+    <!-- use image -->
+    <img src="../assest/main-2.jpg" alt="image not shown" width="400px" height="300px">
+   <!-- peragraph -->
+    <p>Thank you for taking the time to complete this survey. Your feedback is help us improve the learning experiance
+        for for future student </p>
+        <!-- use hyper link -->
+<p>Learn more about web developer at <a href="https://www.freecodecamp.org/">FreeCodeCamp</a></p>
+<hr>
+<!-- form tag -->
+<form action="#" autocomplete="on">
+<label for="name">Full Name:</label><br>
+<input type="text" placeholder="Enter a full name" name="name" required><br><br>
+<label for="email">Email Address:</label><br>
+<input type="email" placeholder="Enter a email address" name="email" required><br><br>
+<label for="age"> Age:</label><br>
+<input type="number" placeholder="you enter" name="age" min="12" max="20" required><br><br>
+<!-- selector -->
+<label for="eduaction"> Current Eduaction Level</label><br>
+<select name="education" id="education">
+    <option value="select">Select an option</option>
+<option value="matric">Matric</option>
+<option value="inter">Intermidiate</option>
+<option value="graduated">Graduated</option>
+</select>
+<br><br>
+<!-- fieldset-1 -->
+<fieldset>
+<legend>How satisfied are you with the course</legend>
+<input  type="radio" id="excellent" name="satisficat" value="excellent" required >
+<label for="excellent">Excellent</label><br>
+<input type="radio" id="good" name="satisficat" value="good" required >
+<label for="good">Good</label><br>
+<input type="radio" id="average" name="satisficat" value="average" required>
+<label for="average">Average</label>
+</fieldset><br><br>
+<!-- fieldset-2 -->
+<fieldset>
+<legend>Which topic are you intrested in</legend>
+<input type="checkbox" id="html" name="topic" value="html" >
+<label for="html">HTML</label><br>
+<input type="checkbox" id="css" name="topic" value="css" >
+<label for="css">CSS</label><br>
+<input type="checkbox" id="javascript" name="topic" value="javascript">
+<label for="javascript">JAVASCRIPT</label><br>
+<input type="checkbox" id="react" name="topic" value="react" >
+<label for="react">REACT</label>
+</fieldset><br><br>
+<!-- textarea -->
+<label for="text">Additiomal Comment</label><br>
+<textarea name="comment" id="text" placeholder="Enter your comments here..." rows="8" cols="35" required></textarea>
+<br><br>
+<!-- button  tag -->
+<button type="submit">Submit Survey</button>
+<hr>
+<!-- footer -->
+<footer>&copy; 2023 Student Feedback. All rights reserved.</footer>
+</form>
+</body>
+</html>
