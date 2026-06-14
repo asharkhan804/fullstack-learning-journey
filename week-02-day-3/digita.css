@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Fraunces", serif;
+}
+body html{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 99%;
+    height: 41px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 0px 20px;
+   
+}
+button{
+    padding: 10px 13px ;
+     border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+}
+.logo{
+    font-size:2rem;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.digital h1{
+    font-size:5rem ;
+    font-weight: 400;
+    text-align: center;
+}
+.digital h3 button{
+    font-weight: bolder;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+}
+img{
+    position: absolute;
+    width: 22rem;
+    object-fit: cover;
+    z-index: -1;
+}
+.left_image{
+    left: 0;
+}
+.top_right{
+position: absolute;
+top: 12%;
+right: 17%;
+}
+.bottom_right{
+position: absolute;
+right: 0%;
+bottom: 18%;
+}
+#same{
+    width: 16rem;
+    object-fit: cover;
+}
