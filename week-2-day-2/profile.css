@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0c1014;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c1014;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    color: white;
+}
+
+
+#main_head{
+    width: 900px;
+    max-width: 1457px;
+    height: 2000px;
+    max-height: 100%;
+    padding: 0px 133.812px;
+    margin: 30px 20px 0px ;
+    background-color:#0c1014;    
+}
+
+header {
+    width: 640px;
+    height: 430px;
+    margin: 1rem;
+
+}
+.profile_main {
+    width: 100%;
+    height: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile_imge {
+    width: 30%;
+    height: 70%;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+}
+
+
+.profile_info {
+    width: 60%;
+    height: 100%;
+    /* background-color: #f30909; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.color_fill {
+    /* background-color: rgb(255, 255, 255);
+    border-radius:50%;
+    font-size-adjust: initial; */
+    color: blue;
+
+}
+
+.profile_info .profile_name {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.profile_span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 16px;
+    flex-direction: row;
+}
+p a{
+    text-decoration: none;
+    color: white;
+    
+}
+#show {
+    font-weight: lighter;
+    color: rgba(124, 108, 108, 0.668);
+}
+
+
+.main_button {
+    /* background-color: chocolate; */
+    width: 680px;
+    max-width: 100%;
+    height: 68px;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    display: flex;
+    position: static;
+    align-items: stretch;
+    column-gap: 8px;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+.follow {
+    width: 300px;
+    height: 44px;
+    padding: 13px 20px;
+    border: 0.5px solid #4a5df9;
+    border-radius: 12px;
+    background-color: #4a5df9;
+    font-size: 14px;
+    color: white;
+}
+
+.message {
+    width: 300px;
+    height: 44px;
+    padding: 13px 20px;
+    border: 0.5px solid #25292e;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: #25292e;
+    color: white;
+}
+
+.back_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #25292e;
+    border: 0.5px solid #25292e;
+    border-radius: 12px;
+}
+
+.main_canva {
+    width: 680px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rong {
+    width: 100px;
+    height: 115px;
+    padding: 4px;
+}
+
+.canva {
+    background-color: rgb(63, 64, 66);
+    width: 87px;
+    height: 87px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.day {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0.7rem;
+}
+
+/* header_end */
+
+.reel_post {
+    width: 800px;
+    max-width: 100%;
+    height: 44px;
+    max-height: 100%;
+    border-bottom: 5px solid #0c1014;
+    margin-top: 0.5rem;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.all_icon {
+    /* background-color: black; */
+    width: 190px;
+    height: 44px;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.insta_logo{
+    width: 24px;
+    height: 44px;
+    padding: 0px 20px;
+    margin-top: 0.5rem;
+    font-size: 30px;
+    color: rgb(142, 142, 142,1);
+    
+}
+.anchor{
+    text-decoration: none;
+}
+
+.width_height{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+/* 
+.videos{
+    width: 294.01px;
+    height: 392px;
+    background-color: aqua;
+    /* display: flex;
+    justify-content: center; 
+} */
+.video_post{
+    width: 249px;
+    height: 342px;
+    object-fit: cover;
+}
