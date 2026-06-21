@@ -1,0 +1,165 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #000;
+     color: bisque;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+ }
+
+ /* task - 1 */
+
+ .container_1 {
+     width: 300px;
+     height: 200px;
+     margin-left: 100px;
+     border: 5px solid rgb(255, 255, 255);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .btn {
+     width: 100px;
+     height: 50px;
+     background-color: blue;
+     border-radius: 15px;
+ }
+
+ .btn:hover {
+     background-color: blanchedalmond;
+     color: #000;
+     transform: scale(1.2);
+     transition: all 1s ease 0.5ms;
+ }
+
+ /* task - 2 */
+
+ .container_2 {
+     width: 300px;
+     height: 300px;
+     margin-left: 100px;
+     border: 5px solid rgb(255, 255, 255);
+     /* display: flex;
+justify-content: center;
+align-items: center; */
+
+ }
+
+ .ball {
+     width: 60px;
+     height: 60px;
+     background-color: tan;
+     border-radius: 50%;
+     text-align: center;
+
+     animation-name: circle;
+     animation-duration: 2s;
+     animation-direction: alternate-reverse;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes circle {
+     0% {
+         transform: translateY(0px);
+     }
+
+     100% {
+         transform: translateY(230px);
+     }
+ }
+
+ /* task-3 */
+
+ .container_3 {
+     width: 80%;
+     height: 40px;
+     background-color: powderblue;
+     border: 1px solid #000;
+     margin-left: 20px;
+ }
+
+ .progress {
+
+     height: 39px;
+     background-color: purple;
+     animation-name: progress_bar;
+     animation-duration: 2s;
+     /* animation-direction: alternate-reverse; */
+     animation-iteration-count: infinite;
+     animation-delay: 1s;
+ }
+
+ @keyframes progress_bar {
+     0% {
+         width: 1%;
+     }
+
+     25% {
+         width: 30%;
+     }
+
+     50% {
+         width: 60%;
+     }
+
+     75% {
+         width: 80%;
+     }
+
+     90% {
+         width: 99%;
+     }
+
+     95% {
+         width: 75%;
+     }
+
+     100% {
+         width: 100%;
+     }
+ }
+
+ /* task - 4 */
+
+ .container_4{
+     width: 400px;
+     height: 400px;
+     margin-left: 100px;
+     border: 5px solid rgb(255, 255, 255);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+ .gallery1{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+ }
+ .gallery{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+ }
+ .gallery1:hover{
+    transform: scale(3);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+ }
+ .gallery:hover{
+    transform: rotate(360deg);
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+ }
